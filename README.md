@@ -1,4 +1,6 @@
-# DSC-IIITL Official Site
-This is the official Site for DSC-IIITL
+# DSC-IIITL Site
 
+**Currently under maintenaince**
+
+Site Inspiration: **DSC-SRM**
 
