@@ -1,6 +1,6 @@
 # DSC-IIITL Site
 
-**Currently under maintenaince**
+Live at http://dsciiitl.com/
 
 Site Inspiration: **DSC-SRM**
 
