@@ -1184,22 +1184,20 @@ body {
 .workshop-card .card-avatar a {
   cursor: default;
 }
-.archive {
-  background: #fff;
-  color: #ea4335;
+/* .archive , .archive-cont {
+  background: #fff !important;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 2rem;
   box-shadow: none;
   font-size: larger;
-}
-.archive span {
-  font-size: larger !important;
+  z-index: 1000;
 }
 .archive:hover {
-  background-color: #ea4335 !important;
-}
+  background-color: #689DF6 !important;
+  color: #fff !important;
+} */
 .time-brdr {
   position: relative;
   left: 50%;
@@ -1209,4 +1207,17 @@ body {
   background: #009fff;
   background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
   background: linear-gradient(to right, #ec2f4b, #009fff);
+}
+.timeline-links a:hover{
+    cursor: pointer;
+    color: #fff !important;
+}
+.section-container section {
+    display: none;
+}
+.navbar.navbar-transparent.dropdown{
+    color: #fff ;
+    background: transparent !important;
+    box-shadow: none !important;
+    width: fit-content !important;
 }
