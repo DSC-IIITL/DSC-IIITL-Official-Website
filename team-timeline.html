@@ -1,97 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="msapplication-navbutton-color" content="#fff" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
+    <link rel="manifest" href="manifest.json" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="IIITL Developer Student Club (DSC IIITL) is a Google Developers program for IIITL students to learn mobile and web development skills."
+    />
+    <title>
+      Developer Student Club (DSC IIITL) - powered by Google Developers
+    </title>
+    <link rel="icon" href="assets/img/logo.png" />
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800|Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="./js/maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
 
-<head>
+    <link href="assets/css/material-kit1c51.css?v=2.1.2" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./js/unpkg.com/flickity%402.2.1/dist/flickity.min.css"
+    />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+  </head>
 
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="theme-color" content="#fff">
-  <meta name="msapplication-navbutton-color" content="#fff">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
-  <link rel="manifest" href="manifest.json">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description"
-    content="IIITL Developer Student Club (DSC IIITL) is a Google Developers program for IIITL students to learn mobile and web development skills.">
-  <title> Developer Student Club (DSC IIITL) - powered by Google Developers</title>
-  <link rel="icon" href="assets/img/logo.png">
+  <body>
+    <div class="preloader bouncing-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav
+      class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg navbar-team"
+      color-on-scroll="20"
+      id="sectionsNav"
+      style="color: #fff;"
+    >
+      <div class="container">
+        <div class="navbar-translate">
+          <div class="navbar-brand logo">
+            <div class="logo-big">
+              <a href="index.html" style="color: inherit;"
+                ><img
+                  src="assets/img/logo.png"
+                  class="img-fluid"
+                  style="margin-bottom: 5px !important;"
+              /></a>
 
-  <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800|Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="./js/maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+              <span
+                ><a href="index.html" style="color: inherit;">
+                  DSC IIITL
+                </a></span
+              >
+            </div>
+            <div class="logo-small">
+              <a href="index.html" style="color: inherit;"
+                ><img
+                  src="assets/img/logo.png"
+                  class="img-fluid"
+                  style="margin-bottom: 5px !important;"
+              /></a>
 
-  <link href="assets/css/material-kit1c51.css?v=2.1.2" rel="stylesheet" />
-  <link rel="stylesheet" href="./js/unpkg.com/flickity%402.2.1/dist/flickity.min.css">
-  <link href="assets/css/custom.css" rel="stylesheet" />
-</head>
-
-<body >
-
-  <div class="preloader bouncing-loader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg navbar-team"
-    color-on-scroll="20" id="sectionsNav" style="color:#fff">
-    <div class="container">
-      <div class="navbar-translate">
-        <div class="navbar-brand logo">
-          <div class="logo-big">
-            <a href="index.html" style="color: inherit;"><img src="assets/img/logo.png" class="img-fluid"
-                style="margin-bottom: 5px !important;"></a>
-            <span><a href="index.html" style="color: inherit;"> DSC IIITL </a></span>
+              <span
+                ><a href="index.html" style="color: inherit;">
+                  DSC IIITL
+                </a></span
+              >
+            </div>
           </div>
-          <div class="logo-small">
-            <a href="index.html" style="color: inherit;"><img src="assets/img/logo.png" class="img-fluid"
-                style="margin-bottom: 5px !important;"></a>
-            <span><a href="index.html" style="color: inherit;"> DSC IIITL </a></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="main-page navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.medium.com/developer-student-clubs-iiitl"
+                target="_blank"
+                class="nav-link"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.github.com/DSC-IIITL"
+                target="_blank"
+                class="nav-link"
+                >Projects</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a href="team.html" class="nav-link">Our Team</a>
+            </li> -->
+            <li class="dropdown nav-item">
+              <a
+                class="dropdown-toggle nav-link"
+                href="#"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+              >
+                OUR TEAM
+              </a>
+
+              <div class="dropdown-menu timeline-links " aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" onclick="T2021()" href="team.html">Current</a>
+                <a
+                class="dropdown-toggle nav-link ml-2 pl-3"
+                href="#"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+              >
+                Archive
+              </a>
+              <div class="dropdown-menu timeline-links" aria-labelledby="dropdownMenuLink">
+                <h6 class="dropdown-header">Timeline</h6>
+                <a class="dropdown-item" onclick="T1920()">2019-2020</a>
+              </div>
+              
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#AboutUs" class="nav-link">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ContactUs" class="nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-3">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="page-header header-filter"
+              style="background-image: url('assets/img/events/9.jpg');"
+            >
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-md-10 ml-auto mr-auto text-center"
+                    style="margin-top: 250px;"
+                  >
+                    <h1 class="title team-main-title">About the team</h1>
+                    <h4
+                      class="d-none d-md-block"
+                      style="
+                        font-weight: 300 !important;
+                        word-spacing: 3px;
+                        letter-spacing: 1px;
+                      "
+                    >
+                      DSC IIITL aspires to expand its student community of
+                      passionate and fervent developers to encapsulate the
+                      latest and advanced technologies such as cloud computing,
+                      machine learning, big data, web, and app development, etc.
+                      through their interactive and free workshops. The students
+                      get an exceptional experience through the seminars
+                      conducted involving the industry professionals. With the
+                      cooperation of various domains such as Technical,
+                      Business, Creatives and Public Relations and Documentation
+                      these events are organized with rewarding feedbacks.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="main-page navbar-nav ml-auto" style="color: black;">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.medium.com/developer-student-clubs-iiitl" target="_blank" class="nav-link">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.github.com/DSC-IIITL" target="_blank" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="team.html" class="nav-link">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a href="index.html#AboutUs" class="nav-link">
-              About Us
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="events.html" class="nav-link">Events</a>
-          </li>
-          <li class="nav-item">
-            <a href="#ContactUs" class="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
-  </nav>
-
   <div class="header-3">
     <div class="container">
         <div class="row">
@@ -1124,6 +1249,33 @@
       }
 
     </script>
+    <script>
+      var sections = document.querySelectorAll('section');
+      function T1920(){
+        sections.forEach(section => {
+          if(section.id === 'T19-20'){
+            section.style.display = 'block';
+          }else{
+            section.style.display = 'none';
+          }
+        })
+      }
+      function T2021(){
+        sections.forEach(section => {
+          if(section.id === 'T20-21'){
+            section.style.display = 'block';
+          }else{
+            section.style.display = 'none';
+          }
+        })
+      }
+      T2021();
+    </script>
+    <script
+      src="./js/ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="6efd9c46fcb0824a1cb2805c-|49"
+      defer=""
+    ></script>
     <script src="./js/ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js"
       data-cf-settings="6efd9c46fcb0824a1cb2805c-|49" defer=""></script>
 </body>

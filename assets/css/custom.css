@@ -1184,20 +1184,6 @@ body {
 .workshop-card .card-avatar a {
   cursor: default;
 }
-/* .archive , .archive-cont {
-  background: #fff !important;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 2rem;
-  box-shadow: none;
-  font-size: larger;
-  z-index: 1000;
-}
-.archive:hover {
-  background-color: #689DF6 !important;
-  color: #fff !important;
-} */
 .time-brdr {
   position: relative;
   left: 50%;
@@ -1220,4 +1206,9 @@ body {
     background: transparent !important;
     box-shadow: none !important;
     width: fit-content !important;
+    padding: none !important;
+}
+.dropdown-menu .dropdown-toggle{
+    padding: none !important;
+    margin: .35rem !important;
 }
