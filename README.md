@@ -1,6 +1,5 @@
 # DSC-IIITL Site
 
-Live at http://dsciiitl.com/
+Live at https://dsciiitl.tech/ & https://dsciiitl.netlify.app/
 
 Site Inspiration: **DSC-SRM**
-
